@@ -1,0 +1,60 @@
+body{
+    background-color: lightyellow;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* header styles */
+header{
+    background-color: gold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header h1{
+    font-size: 50px;
+    color: white;
+}
+header h2{
+    color: white;
+    font-size: 30px;
+}
+header img{
+    border-radius: 150px;
+    width: 300px;
+    border: 5px solid white;
+}
+/*main styles*/
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+main img{
+    max-width: 100%;
+    float: right;
+}
+h2{
+    font-size: 35px;
+    color:black;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: gold;
+
+}
+/*footer styles*/
+footer{
+    color:white;
+    text-align: center;
+    background-color: gold;
+    padding: 10px;
+}
+footer p{
+    margin: 0;
+}
+
