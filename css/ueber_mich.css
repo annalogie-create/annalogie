@@ -4,11 +4,35 @@ body{
     font-size: 20px;
     line-height: 30px;
 }
+/*navigation bar styles*/
+nav{
+    float: right;
+    }
+    nav ul{
+        margin: 0;
+        margin-right: 60px;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-left: 30px;
+        padding-top: 15px;
+    }
+    nav a{
+        color: black;
+    }
+    .logo{
+        margin-left: 60px;
+        width: 150px;
+        float: left;
+        padding: 10 0;
+    }
 /* header styles */
 header{
     background-color: gold;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 header h1{
