@@ -60,6 +60,7 @@ main{
 main img{
     max-width: 100%;
     float: right;
+    width: 150px;
 }
 h2{
     font-size: 35px;
