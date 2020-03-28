@@ -22,6 +22,9 @@ nav{
     nav a{
         color: black;
     }
+    nav a:hover{
+        color: black;
+    }
     .logo{
         margin-left: 60px;
         width: 150px;
