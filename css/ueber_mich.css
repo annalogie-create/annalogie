@@ -3,34 +3,36 @@ body{
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     line-height: 30px;
+    margin: 0;
 }
-/*navigation bar styles*/
-nav{
-    float: right;
-    }
-    nav ul{
-        margin: 0;
-        margin-right: 60px;
-        padding: 0;
-        list-style: none;
-    }
-    nav li{
-        display: inline-block;
-        margin-left: 30px;
-        padding-top: 15px;
-    }
-    nav a{
-        color: black;
-    }
-    nav a:hover{
-        color: black;
-    }
-    .logo{
-        margin-left: 60px;
-        width: 150px;
-        float: left;
-        padding: 10 0;
-    }
+    /*navigation bar styles*/
+    nav{
+        float: right;
+        background-color: gold;
+        }
+        nav ul{
+            margin: 0;
+            margin-right: 60px;
+            padding: 0;
+            list-style: none;
+        }
+        nav li{
+            display: inline-block;
+            margin-left: 30px;
+            padding-top: 15px;
+        }
+        nav a{
+            color: black;
+        }
+        nav a:hover{
+            color: black;
+        }
+        .logo{
+            margin-left: 60px;
+            width: 150px;
+            float: left;
+            padding: 10 0;
+        }
 /* header styles */
 header{
     background-color: gold;
@@ -40,10 +42,10 @@ header{
 }
 header h1{
     font-size: 50px;
-    color: white;
+    color: black;
 }
 header h2{
-    color: white;
+    color: black;
     font-size: 30px;
 }
 header img{
@@ -53,7 +55,6 @@ header img{
 }
 /*main styles*/
 main{
-    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }

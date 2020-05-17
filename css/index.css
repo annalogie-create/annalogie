@@ -24,6 +24,9 @@ nav{
     nav a{
         color: black;
     }
+    nav a:hover{
+        color: black;
+    }
     .logo{
         margin-left: 60px;
         width: 150px;
@@ -33,6 +36,7 @@ nav{
 /*header styles*/
 header{
     background-color: gold;
+    text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -41,9 +45,28 @@ header h1{
 }
 /*main styles*/
 main{
-
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+a{
+    color: black;
+}
+td {
+    border: 1px solid #999;
+    padding: 0.1em 1em;
+}
+video{
+    width: 300px;
+    height: 300px;
 }
 /*footer styles*/
 footer{
-
+    color:white;
+    text-align: center;
+    background-color: gold;
+    padding: 10px;
+}
+footer p{
+    margin: 0;
 }
