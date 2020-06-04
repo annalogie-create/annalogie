@@ -43,6 +43,10 @@ header{
 header h1{
     text-align: center;
 }
+header img{
+    text-align: center;
+    width: 500px;
+}
 /*main styles*/
 main{
     max-width: 800px;
@@ -59,6 +63,9 @@ td {
 video{
     width: 300px;
     height: 300px;
+}
+.date{
+    font-size: smaller;
 }
 /*footer styles*/
 footer{
