@@ -48,11 +48,7 @@ header h2{
     color: black;
     font-size: 30px;
 }
-header img{
-    border-radius: 150px;
-    width: 300px;
-    border: 5px solid white;
-}
+
 /*main styles*/
 main{
     margin: 0 auto;
@@ -61,8 +57,13 @@ main{
 main img{
     max-width: 100%;
     float: right;
-    width: 150px;
+    width: 200px;
 }
+.profile{
+    max-width: 100%;
+    width: 200px;
+}
+
 h2{
     font-size: 35px;
     color:black;
