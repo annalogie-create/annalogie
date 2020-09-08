@@ -53,6 +53,7 @@ header h2{
 main{
     margin: 0 auto;
     padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 main img{
     max-width: 100%;
