@@ -67,6 +67,13 @@ video{
 .date{
     font-size: smaller;
 }
+video{
+    width: 250px;
+    height: 250px;
+}
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
 /*footer styles*/
 footer{
     color:white;
@@ -76,4 +83,18 @@ footer{
 }
 footer p{
     margin: 0;
+}
+footer ul{
+    margin: 0;
+    margin-right: 60px;
+    padding: 0;
+    list-style: none;
+}
+footer li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 15px;
+}
+footer a{
+    color: white;
 }
