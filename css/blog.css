@@ -75,6 +75,26 @@ video{
 .date{
     font-size: smaller;
 }
+.bild{
+    margin-left: 150px;
+    width: 170px;
+    float: right;
+    padding: 10 0;
+    border-radius: 100px;
+    border: solid gray 2px;
+
+}
+.profile{
+    margin-left: 150px;
+    width: 200px;
+    float: right;
+    padding: 10 0;
+    border-radius: 100px;
+    border: solid white 3px;
+}
+.bild1{
+    border: solid gray 2px;
+}
 /*footer styles*/
 footer{
     color:white;
