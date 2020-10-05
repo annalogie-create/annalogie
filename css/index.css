@@ -67,6 +67,12 @@ video{
 .date{
     font-size: smaller;
 }
+.vorschau{
+    border: 3px solid #999;
+    margin-left: 20px;
+    margin-top: 30px;
+    float: right;
+}
 video{
     width: 250px;
     height: 250px;

@@ -96,6 +96,12 @@ video{
     border: solid gray 2px;
     text-align: center;
 }
+.vorschau{
+    border: 1px solid #999;
+    margin-left: 20px;
+    margin-top: 30px;
+    float: right;
+}
 /*footer styles*/
 footer{
     color:white;
