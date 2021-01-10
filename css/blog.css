@@ -56,7 +56,9 @@ main{
     font-size: 16px;
     line-height: 23px;
 }
-
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
 h1{
     font-family: 'Oswald', sans-serif;
 }
