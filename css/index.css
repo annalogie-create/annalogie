@@ -79,13 +79,24 @@ td {
     max-width: 100%;
     width: 100%;
     margin-bottom: 2.5%;
+    border: 1px solid;
 }
 .description-article{
     font-size: smaller;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: normal;
 }
-
+button{
+    margin-top: 2.5%;
+    float: right;
+    color: black;
+    background-color: gold;
+    font-size: larger;
+    font-family:  'Oswald', sans-serif;
+    width: 15%;
+    height: 30%;
+    border: 2px solid;
+}
 /*Annimationen styles*/
 .annimationen{
     display: grid;
@@ -93,6 +104,7 @@ td {
     grid-column-gap: 2.5%;
 }
 .annimationen h2{
+    margin-top: 7.5%;
     grid-column-start: 1;
     grid-column-end: 4;
 }
