@@ -84,6 +84,8 @@ video{
     padding: 10 0;
     border-radius: 100px;
     border: solid gray 2px;
+    max-width: 100%;
+    width: 100%;
 
 }
 .profile{

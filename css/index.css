@@ -2,7 +2,7 @@ body{
     background-color: lightyellow;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 2.5%;
     margin: 0;
 }
 /*navigation bar styles*/
@@ -19,7 +19,7 @@ nav{
     nav li{
         display: inline-block;
         margin-left: 30px;
-        padding-top: 15px;
+        padding-top: 30px;
     }
     nav a{
         color: black;
@@ -29,7 +29,7 @@ nav{
     }
     .logo{
         margin-left: 60px;
-        width: 150px;
+        width: 200px;
         float: left;
         padding: 10 0;
     }
@@ -46,13 +46,25 @@ header h1{
 header img{
     text-align: center;
     width: 500px;
+    max-width: 100%;
 }
 /*main styles*/
 main{
-    max-width: 800px;
+    max-width: 70%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2.5%;
 }
+/*recent styles*/
+.recent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2.5%;
+}
+.recent h2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
 a{
     color: black;
 }
@@ -60,26 +72,35 @@ td {
     border: 1px solid #999;
     padding: 0.1em 1em;
 }
-video{
-    width: 300px;
-    height: 300px;
-}
-.date{
-    font-size: smaller;
-}
+
 .vorschau{
-    border: 3px solid #999;
-    margin-left: 10px;
-    margin-top: 30px;
-    float: right;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 2.5%;
+}
+.description-article{
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: normal;
+}
+
+/*Annimationen styles*/
+.annimationen{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2.5%;
+}
+.annimationen h2{
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 video{
-    width: 250px;
-    height: 250px;
+    max-width: 100%;
+    width: 100%;
 }
-.column-left{ float: left; width: 33%; }
-.column-right{ float: right; width: 33%; }
-.column-center{ display: inline-block; width: 33%; }
+
 /*footer styles*/
 footer{
     color:white;
