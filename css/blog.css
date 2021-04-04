@@ -56,6 +56,11 @@ main{
     font-size: 16px;
     line-height: 23px;
 }
+.zweiSpaltenUL{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 2.5%;
+}
 .column-left{ float: left; width: 33%; }
 .column-right{ float: right; width: 33%; }
 .column-center{ display: inline-block; width: 33%; }
