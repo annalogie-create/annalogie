@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-80"?>
 <rss version="2.0">
-  <channel>
-    <generator>RSS Builder by B!Soft</generator>
-    <title>Annalogie Blog</title>
-    <link>https://www.annalogie.com/blog.html</link>
-    <description>Blogeinträge vom Blog Annalogie</description>
-    <language>de</language>
-    <copyright>Anna Schierholz</copyright>
-  </channel>
+<channel>
+<item>
+<title>Annalogie Blog</title>
+<description>Blogeinträge zu Zeitmanagement, Lernen, Organisation und mehr </description>
+<link>https://www.annalogie.com/blog.html</link>
+</item>
+</channel>
 </rss>
