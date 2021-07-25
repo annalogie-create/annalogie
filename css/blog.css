@@ -44,6 +44,7 @@ header h1{
     text-align: center;
 }
 header img{
+    display: block;
     text-align: center;
     width: 500px;
 }
@@ -60,6 +61,11 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 2.5%;
+}
+.zweiDritteleinDrittel{
+    display: grid;
+    grid-template-columns: auto 3fr;
+    grid-column-gap: 2.5%; 
 }
 .column-left{ float: left; width: 33%; }
 .column-right{ float: right; width: 33%; }
@@ -110,6 +116,9 @@ video{
     margin-left: 20px;
     margin-top: 30px;
     float: right;
+}
+.paddingAdded{
+    padding-top: 30px;
 }
 /*footer styles*/
 footer{
