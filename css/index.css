@@ -1,6 +1,6 @@
 body{
-    background-color: lightyellow;
-    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 2.5%;
     margin: 0;
@@ -8,7 +8,7 @@ body{
 /*navigation bar styles*/
 nav{
     float: right;
-    background-color: gold;
+    background-color: aliceblue;
     }
     nav ul{
         margin: 0;
@@ -35,7 +35,7 @@ nav{
     }
 /*header styles*/
 header{
-    background-color: gold;
+    background-color: aliceblue;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -79,20 +79,20 @@ td {
     max-width: 100%;
     width: 100%;
     margin-bottom: 2.5%;
-    border: 1px solid;
+    border-radius: 2%;
 }
 .description-article{
     font-size: smaller;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', Arial, sans-serif;
     line-height: normal;
 }
 button{
     margin-top: 2.5%;
     float: right;
     color: black;
-    background-color: gold;
+    background-color: aliceblue;
     font-size: larger;
-    font-family:  'Oswald', sans-serif;
+    font-family:  'Raleway', sans-serif;
     width: 15%;
     height: 30%;
     border: 2px solid;
@@ -115,9 +115,9 @@ video{
 
 /*footer styles*/
 footer{
-    color:white;
+    color:black;
     text-align: center;
-    background-color: gold;
+    background-color: aliceblue;
     padding: 10px;
 }
 footer p{
@@ -135,5 +135,5 @@ footer li{
     padding-top: 15px;
 }
 footer a{
-    color: white;
+    color: black;
 }

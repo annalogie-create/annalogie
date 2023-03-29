@@ -1,6 +1,6 @@
 body{
-    background-color: lightyellow;
-    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 30px;
     margin: 0;
@@ -8,7 +8,7 @@ body{
 /*navigation bar styles*/
 nav{
     float: right;
-    background-color: gold;
+    background-color: aliceblue;
     }
     nav ul{
         margin: 0;
@@ -35,7 +35,7 @@ nav{
     }
 /*header styles*/
 header{
-    background-color: gold;
+    background-color: aliceblue;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 50px;
@@ -69,9 +69,9 @@ video{
 .column-center{ display: inline-block; width: 33%; }
 /*footer styles*/
 footer{
-    color:white;
+    color:black;
     text-align: center;
-    background-color: gold;
+    background-color: aliceblue;
     padding: 10px;
 }
 footer p{
@@ -89,5 +89,5 @@ footer li{
     padding-top: 15px;
 }
 footer a{
-    color: white;
+    color: black;
 }

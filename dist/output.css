@@ -1,0 +1,167 @@
+body{
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 2.5%;
+  margin: 0;
+}
+
+/*navigation bar styles*/
+
+nav{
+  float: right;
+  background-color: aliceblue;
+}
+
+nav ul{
+  margin: 0;
+  margin-right: 60px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+nav a{
+  color: black;
+}
+
+nav a:hover{
+  color: black;
+}
+
+.logo{
+  margin-left: 60px;
+  width: 200px;
+  float: left;
+  padding: 10 0;
+}
+
+/*header styles*/
+
+header{
+  background-color: aliceblue;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header h1{
+  text-align: center;
+}
+
+header img{
+  text-align: center;
+  width: 500px;
+  max-width: 100%;
+}
+
+/*main styles*/
+
+main{
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2.5%;
+}
+
+/*recent styles*/
+
+.recent{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 2.5%;
+}
+
+.recent h2{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+a{
+  color: black;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 0.1em 1em;
+}
+
+.vorschau{
+  margin-left: 2.5%;
+  margin-top: 5%;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 2.5%;
+  border-radius: 2%;
+}
+
+.description-article{
+  font-size: smaller;
+  font-family: 'Raleway', Arial, sans-serif;
+  line-height: normal;
+}
+
+button{
+  margin-top: 2.5%;
+  float: right;
+  color: black;
+  background-color: aliceblue;
+  font-size: larger;
+  font-family:  'Raleway', sans-serif;
+  width: 15%;
+  height: 30%;
+  border: 2px solid;
+}
+
+/*Annimationen styles*/
+
+.annimationen{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 2.5%;
+}
+
+.annimationen h2{
+  margin-top: 7.5%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+video{
+  max-width: 100%;
+  width: 100%;
+}
+
+/*footer styles*/
+
+footer{
+  color:black;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer ul{
+  margin: 0;
+  margin-right: 60px;
+  padding: 0;
+  list-style: none;
+}
+
+footer li{
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+footer a{
+  color: black;
+}
