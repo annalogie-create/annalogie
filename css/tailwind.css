@@ -105,6 +105,10 @@
   min-width: max-content
 }
 
+.tw-min-w-full {
+  min-width: 100%
+}
+
 .tw-max-w-full {
   max-width: 100%
 }
