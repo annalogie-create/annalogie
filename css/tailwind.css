@@ -100,6 +100,15 @@
   width: 100%
 }
 
+.tw-min-w-max {
+  min-width: -moz-max-content;
+  min-width: max-content
+}
+
+.tw-max-w-full {
+  max-width: 100%
+}
+
 .tw-flex-1 {
   flex: 1 1 0%
 }
