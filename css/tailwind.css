@@ -92,8 +92,12 @@
   --tw-backdrop-sepia:  
 }
 
-.tw-flex {
-  display: flex
+.tw-grid {
+  display: grid
+}
+
+.tw-w-full {
+  width: 100%
 }
 
 .tw-flex-1 {
@@ -104,12 +108,45 @@
   flex-basis: 33.333333%
 }
 
+.tw-grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+
+.tw-grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+}
+
+.tw-grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr))
+}
+
+.tw-place-content-end {
+  place-content: end
+}
+
+.tw-content-center {
+  align-content: center
+}
+
 .tw-content-end {
   align-content: flex-end
 }
 
-.tw-gap-10 {
-  gap: 2.5rem
+.tw-items-end {
+  align-items: flex-end
+}
+
+.tw-gap-x-6 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem
+}
+
+.tw-gap-y-10 {
+  row-gap: 2.5rem
+}
+
+.tw-place-self-end {
+  place-self: end
 }
 
 .tw-break-normal {
@@ -139,6 +176,11 @@
      object-position: bottom
 }
 
+.tw-object-right-bottom {
+  -o-object-position: right bottom;
+     object-position: right bottom
+}
+
 .tw-px-4 {
   padding-left: 1rem;
   padding-right: 1rem
@@ -152,6 +194,10 @@
 .tw-py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem
+}
+
+.tw-text-center {
+  text-align: center
 }
 
 .tw-text-end {
@@ -168,6 +214,16 @@
   line-height: 1.25rem
 }
 
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem
+}
+
+.tw-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}
+
 .tw-leading-8 {
   line-height: 2rem
 }
@@ -182,7 +238,27 @@
   color: rgb(31 41 55 / var(--tw-text-opacity))
 }
 
+@media (min-width: 640px) {
+  .sm\:tw-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:tw-grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
+
+  .md\:tw-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+}
+
 @media (min-width: 1024px) {
+  .lg\:tw-grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
+
   .lg\:tw-text-base {
     font-size: 1rem;
     line-height: 1.5rem
